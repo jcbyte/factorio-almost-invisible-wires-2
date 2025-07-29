@@ -98,7 +98,6 @@ elseif settings.startup["wire-color"].value == "Invisible" then
 end
 
 -- Green wire
-
 if settings.startup["wire-color-g"].value == "Blue" then
     data.raw["item"]["green-wire"].icon_size = 32
     data.raw["item"]["green-wire"].icon = "__AlmostInvisibleElectricWires__/graphics/g-wire-b-icon.png"
@@ -177,7 +176,6 @@ elseif settings.startup["wire-color-g"].value == "Invisible" then
 end
 
 -- Red wire
-
 if settings.startup["wire-color-r"].value == "Yellow" then
     data.raw["item"]["red-wire"].icon_size = 32
     data.raw["item"]["red-wire"].icon = "__AlmostInvisibleElectricWires__/graphics/r-wire-y-icon.png"
