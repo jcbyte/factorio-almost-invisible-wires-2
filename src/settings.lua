@@ -7,14 +7,14 @@ data:extend({{
     localised_name = "Copper Wire Color"
 }, {
     type = "string-setting",
-    name = "wire-color-g",
+    name = "g-wire-color",
     setting_type = "startup",
     default_value = "50% Opacity",
     allowed_values = {"Green", "Blue", "50% Opacity", "Invisible"},
     localised_name = "Green Wire Color"
 }, {
     type = "string-setting",
-    name = "wire-color-r",
+    name = "r-wire-color",
     setting_type = "startup",
     default_value = "50% Opacity",
     allowed_values = {"Red", "Yellow", "50% Opacity", "Invisible"},
