@@ -41,6 +41,10 @@ temp_dir=$(mktemp -d)
 mkdir "$temp_dir/$dist_name"
 cp -r $SRC_DIR/* "$temp_dir/$dist_name/"
 
+# Replace environment variables in info.json
+envsubst < $temp_dir/$dist_name/info.json > $temp_dir/info.tmp
+mv $temp_dir/info.tmp $temp_dir/$dist_name/info.json
+
 # Create the zip archive
 cd "$temp_dir" || exit
 zip -r "$dist_name.zip" "$dist_name"
