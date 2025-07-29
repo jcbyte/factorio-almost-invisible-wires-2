@@ -1,8 +1,8 @@
 {
-  "name": "AlmostInvisibleElectricWires",
-  "version": "0.0.13",
-  "title": "Almost Invisible Electric Wires",
-  "author": "DellAquila, kuxynator",
-  "description": "You can make the wires 80%, 50% or completely invisible. The Red and Green wire can be Blue and Yellow, or invisible too. Now you can customize it in settings.",
-  "factorio_version": "1.1" 
+  "name": "AlmostInvisibleElectricWires2",
+  "version": "0.1.0",
+  "title": "Almost Invisible Electric Wires [2.0]",
+  "author": "joelcutler7 (forked from DellAquila, kuxynator)",
+  "description": "Make copper wires 80% transparent, 50% transparent or invisible. Red and Green wire can be Blue and Yellow, 50% transparent or invisible too. Updated for Factorio 2.0, Original by DellAquila and kuxynator.",
+  "factorio_version": "2.0" 
 }
