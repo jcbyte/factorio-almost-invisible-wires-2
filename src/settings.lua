@@ -1,34 +1,22 @@
-data:extend(
-{
-{
-type = "string-setting",
-name = "wire-color",
-setting_type = "startup",
-default_value = "Visible 30%",
-allowed_values = {"Invisible", "Visible 30%", "Visible 50%", "Visible 80%", "Default"},
-localised_name = "Copper Wire Color"
-},
-
-
-
-{
-type = "string-setting",
-name = "wire-color-g",
-setting_type = "startup",
-default_value = "Visible 50%",
-allowed_values = {"Green", "Visible 50%","Blue","Invisible"},
-localised_name = "Green Wire Color"
-},
-
-{
-type = "string-setting",
-name = "wire-color-r",
-setting_type = "startup",
-default_value = "Visible 50%",
-allowed_values = {"Red", "Visible 50%","Yellow","Invisible"},
-localised_name = "Red Wire Color"
-},
-
-
-
-})
+data:extend({{
+    type = "string-setting",
+    name = "wire-color",
+    setting_type = "startup",
+    default_value = "30% Opacity",
+    allowed_values = {"Default", "80% Opacity", "50% Opacity", "30% Opacity", "Invisible"},
+    localised_name = "Copper Wire Color"
+}, {
+    type = "string-setting",
+    name = "wire-color-g",
+    setting_type = "startup",
+    default_value = "50% Opacity",
+    allowed_values = {"Green", "Blue", "50% Opacity", "Invisible"},
+    localised_name = "Green Wire Color"
+}, {
+    type = "string-setting",
+    name = "wire-color-r",
+    setting_type = "startup",
+    default_value = "50% Opacity",
+    allowed_values = {"Red", "Yellow", "50% Opacity", "Invisible"},
+    localised_name = "Red Wire Color"
+}})
